@@ -1,0 +1,14 @@
+Datasets links: 
+[21] Google. Smoking Images: Dataset [Internet]. Available:
+https://tinyurl.com/59zcybpd.
+
+[22] Unsplash. Cigar Smoking Images: Dataset [Internet].
+Available: https://unsplash.com/s/photos/cigar-smoke-in- car. 
+
+[23] iStockphoto. Cigar Smoking Images: Dataset [Internet].
+https://www.istockphoto.com/kr/search/search-by-asset?as
+setid=1367537840&assettype=image.
+
+[24] A. Khan, “Dataset Containing Smoking and Not-Smoking
+Images (Smoker vs Non-Smoker),” Mendeley Data, Vol. 1,
+2020.

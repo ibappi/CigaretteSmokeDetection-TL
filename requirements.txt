@@ -1,0 +1,28 @@
+# Core Framework
+tensorflow==2.10.0
+tensorflow-addons==0.20.0
+
+# Numerical & Data Handling
+numpy==1.23.5
+pandas==1.5.3
+
+# Image Processing
+opencv-python==4.8.0.76
+Pillow==9.5.0
+
+# Visualization (Grad-CAM / Attention)
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Model Utilities
+scikit-learn==1.2.2
+scipy==1.10.1
+
+# Progress Bar
+tqdm==4.65.0
+
+# File & Path Handling
+pyyaml==6.0.1
+
+# Optional (if you want to use GradCAM libraries instead of custom code)
+tf-keras-vis==0.8.0
