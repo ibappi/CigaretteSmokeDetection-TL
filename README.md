@@ -1,12 +1,26 @@
-📘 Enhancing Vision-Based Cigarette Smoke Detection in Smart Vehicles
-Transfer Learning with VGG19 (Official Code)
+# 📘 Enhancing Vision-Based Cigarette Smoke Detection in Smart Vehicles
+This repository provides the implementation of our model for vision-based cigarette smoke detection in smart vehicle environments, as proposed in the following peer-reviewed publication:
 
-This repository contains the official implementation of the model proposed in the following peer-reviewed publication:
+---
+
+## 🔍 Overview
+
+Our model addresses these challenges through:
+Transfer Learning using VGG19
+Fine-tuning for binary classification (smoke / non-smoke)
+Optional Spatial Attention Module for improved region focus
+Grad-CAM & Attention Map visualization for interpretability
+Lightweight architecture suitable for real-time smart vehicle systems
 
 Bappi, MD Ilias; Jin, Hyeonseok; Kim, Kyungbaek (2025).
 Enhancing Vision-Based Cigarette Smoke Detection in Smart Vehicles by Transfer Learning.
 Journal of Digital Contents Society, 26(4), 1041–1057.
 
+---
+
+## 📁 Repository Structure
+
+```
 CigaretteSmokeDetection-TL/
 │
 ├── README.md
@@ -20,8 +34,6 @@ CigaretteSmokeDetection-TL/
 │   ├── utils/
 │   │   ├── data_loader.py
 │   │   ├── preprocess.py
-│   │   ├── visualization.py
-│   │   └── metrics.py
 │   │
 │   ├── train.py
 │   ├── evaluate.py
@@ -31,22 +43,23 @@ CigaretteSmokeDetection-TL/
 │   ├── README_DATASET.txt           ← Explains dataset structure only
 │   └── sample_paths.txt             ← Sample example of image paths
 │
-├── experiments/
-│   ├── logs/
-│   ├── results/
-│   └── attention_maps/              ← Grad-CAM & spatial attention outputs
-│
 ├── requirements.txt
 │
-├── LICENSE
 │
 └── .gitignore
-This work focuses on enhancing real-time cigarette smoke detection in smart vehicles using a transfer-learning approach based on VGG19.
-Our contributions include:
+```
 
-Fine-tuned VGG19 model for binary classification (smoke vs. non-smoke)
-Optional Spatial Attention Module (CBAM-like) for improved localization
-Robust feature extraction for dense, sparse, and ambiguous smoke patterns
-Visualization tools including Grad-CAM and spatial attention heatmaps
-This codebase is designed for reproducibility and for extending the detection framework in smart vehicle applications.
+## 📄 Citation
+
+```bibtex
+@article{bappi2025enhancing,
+  title={Enhancing Vision-Based Cigarette Smoke Detection in Smart Vehicles by Transfer Learning},
+  author={Bappi, MD Ilias and Jin, Hyeonseok and Kim, Kyungbaek},
+  journal={디지털콘텐츠학회논문지},
+  volume={26},
+  number={4},
+  pages={1041--1057},
+  year={2025}
+}
+
 
