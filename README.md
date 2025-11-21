@@ -6,11 +6,11 @@ This repository provides the implementation of our model for vision-based cigare
 ## 🔍 Overview
 
 Our model addresses these challenges through:
-Transfer Learning using VGG19
-Fine-tuning for binary classification (smoke / non-smoke)
-Optional Spatial Attention Module for improved region focus
-Grad-CAM & Attention Map visualization for interpretability
-Lightweight architecture suitable for real-time smart vehicle systems
+- Transfer Learning using VGG19
+- Fine-tuning for binary classification (smoke / non-smoke)
+- Spatial Attention Module for improved region focus
+- Grad-CAM & Attention Map visualization for interpretability
+- Lightweight architecture suitable for real-time smart vehicle systems
 
 Bappi, MD Ilias; Jin, Hyeonseok; Kim, Kyungbaek (2025).
 Enhancing Vision-Based Cigarette Smoke Detection in Smart Vehicles by Transfer Learning.
